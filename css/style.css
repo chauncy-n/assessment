@@ -1,0 +1,55 @@
+
+body{
+    margin: auto;
+
+}
+main{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 500px;
+}
+button{
+    height: 60px;
+    width: 60px;
+    margin: auto;
+    border: solid rgb(167, 165, 165) 2px;
+    flex: auto;
+    background-color: rgb(167, 165, 165);
+    color: white;
+    font-size: 30px;
+    border-radius: 20%;
+}
+button:hover{
+    background-color: white;
+    color: rgb(167, 165, 165);
+}
+#text{
+    width: 80px;
+}
+#input{
+    text-align: center;
+    width: 100px;
+}
+
+#display{
+    display: inline-block;
+    margin: 1fr;
+    position: relative;
+    bottom: 130px;
+    left: 90px;
+    font-size: 80px;
+
+}
+#add{
+    position: relative;
+    right: 95px;
+    top: 40px;
+}
+#subtract{
+    position: relative;
+    left: 95px;
+    bottom: 40px;
+}
